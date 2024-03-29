@@ -30,7 +30,11 @@ const Navbar = () => {
             <i className="fa-solid fa-mug-saucer"></i>
           </button>
           <Link to="/">
-            <img src="images/mark.png" width="80" alt="標誌" />
+            <img
+              src={require("../styles/images/mark.png")}
+              width="80"
+              alt="標誌"
+            />
           </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100">
@@ -89,7 +93,11 @@ const Navbar = () => {
               <i className="fa-solid fa-mug-saucer"></i>
             </button>
             <Link to="/">
-              <img src="images/mark.png" width="80" alt="標誌" />
+              <img
+                src={require("../styles/images/mark.png")}
+                width="80"
+                alt="標誌"
+              />
             </Link>
             <div
               className="collapse navbar-collapse"

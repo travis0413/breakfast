@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
+import card1 from "../styles/images/open.jpg";
+import card2 from "../styles/images/discount2.jpg";
+import card3 from "../styles/images/discount.jpg";
 
 const NewsCard = ({ reverse }) => {
-  const [card, setCard] = useState("images/open.jpg");
+  const [card, setCard] = useState(card1);
   const [collapse, setCollapse] = useState(null);
   useEffect(() => {}, []);
 
@@ -29,12 +32,12 @@ const NewsCard = ({ reverse }) => {
         />
         <button
           onClick={() => {
-            if (card == "images/open.jpg") {
-              setCard("images/discount2.jpg");
-            } else if (card == "images/discount2.jpg") {
-              setCard("images/discount.jpg");
-            } else if (card == "images/discount.jpg") {
-              setCard("images/open.jpg");
+            if (card == card1) {
+              setCard(card2);
+            } else if (card == card2) {
+              setCard(card3);
+            } else if (card == card3) {
+              setCard(card1);
             }
           }}
           className="primary position-absolute"
@@ -44,7 +47,11 @@ const NewsCard = ({ reverse }) => {
             top: "50%",
           }}
         >
-          <img src="images/arrow.png" height="50px" className="arrow" />
+          <img
+            src={require("../styles/images/arrow.png")}
+            height="50px"
+            className="arrow"
+          />
         </button>
         <button
           onClick={() => {
@@ -64,7 +71,11 @@ const NewsCard = ({ reverse }) => {
             right: "0",
           }}
         >
-          <img src="images/arrow2.png" height="50px" className="arrow" />
+          <img
+            src={require("../styles/images/arrow2.png")}
+            height="50px"
+            className="arrow"
+          />
         </button>
         {card === "images/open.jpg" && (
           <div className="card-body">

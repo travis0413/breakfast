@@ -13,23 +13,6 @@ const BasicInformation = ({
 
   return (
     <div className="basic-information">
-      {/* <div className="input-group">
-        <label className="input-group-text prefix text-wrap" for="category">
-          類別
-        </label>
-        <select
-          className="form-select"
-          id="category"
-          onChange={(e) => {
-            setCategorySelect(e.target.value);
-          }}
-        >
-          <option selected value="franchise">
-            加盟需求
-          </option>
-          <option value="feedback">顧客回饋</option>
-        </select>
-      </div> */}
       <div className="input-group">
         <label for="name" className="input-group-text prefix text-wrap">
           姓名
@@ -54,7 +37,7 @@ const BasicInformation = ({
           }}
         >
           <p style={{ margin: "0", display: "flex", alignItems: "center" }}>
-            <img src="images/icon8.png" height="20px" />
+            <img src={require("../styles/images/icon8.png")} height="20px" />
             您必須填寫姓名
           </p>
           <button
@@ -151,7 +134,7 @@ const BasicInformation = ({
           }}
         >
           <p style={{ margin: "0", display: "flex", alignItems: "center" }}>
-            <img src="images/icon8.png" height="20px" />
+            <img src={require("../styles/images/icon8.png")} height="20px" />
             您必須於信箱或電話其中一欄進行填寫
           </p>
           <button

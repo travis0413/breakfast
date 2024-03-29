@@ -27,7 +27,7 @@ const MenuPage1 = ({ page1Ref, displayBtnRef, menuList }) => {
           </h4>
           {food1 && (
             <a href={`images/${menuList}1.jpg`} target="_blank">
-              <img src={`images/${menuList}1.jpg`} />
+              <img src={require(`../styles/images/${menuList}1.jpg`)} />
             </a>
           )}
         </div>
@@ -49,7 +49,7 @@ const MenuPage1 = ({ page1Ref, displayBtnRef, menuList }) => {
           </h4>
           {food2 && (
             <a href={`images/${menuList}2.jpg`} target="_blank">
-              <img src={`images/${menuList}2.jpg`} />
+              <img src={require(`../styles/images/${menuList}2.jpg`)} />
             </a>
           )}
         </div>
@@ -76,7 +76,7 @@ const MenuPage1 = ({ page1Ref, displayBtnRef, menuList }) => {
           </h4>
           {food3 && (
             <a href={`images/${menuList}3.jpg`} target="_blank">
-              <img src={`images/${menuList}3.jpg`} />
+              <img src={require(`../styles/images/${menuList}3.jpg`)} />
             </a>
           )}
         </div>
@@ -102,7 +102,10 @@ const MenuPage1 = ({ page1Ref, displayBtnRef, menuList }) => {
           </h4>
           {food4 && (
             <a href={`images/${menuList}4.jpg`} target="_blank">
-              <img src={`images/${menuList}4.jpg`} className="choose" />
+              <img
+                src={require(`../styles/images/${menuList}4.jpg`)}
+                className="choose"
+              />
             </a>
           )}
         </div>

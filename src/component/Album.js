@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import abg1 from "../styles/abg1.jpg";
-import abg2 from "../styles/abg2.jpg";
-import abg3 from "../styles/abg3.jpg";
+import abg1 from "../styles/images/abg1.jpg";
+import abg2 from "../styles/images/abg2.jpg";
+import abg3 from "../styles/images/abg3.jpg";
 
 const Album = ({ title }) => {
   const [bg, setBg] = useState(abg1);

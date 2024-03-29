@@ -30,7 +30,7 @@ const About = () => {
       <Album title="品牌故事" />
       <div className="story-contain">
         <div className="letter-1" ref={letterOneRef}>
-          <img src="images/bg5-1.jpg" />
+          <img src={require("../styles/images/bg5-1.jpg")} />
           <div className="text1">
             <p>
               Mr.里歐一直以來重視台灣早餐文化，不斷努力研發創意、客製化的歐式特色產品
@@ -42,17 +42,17 @@ const About = () => {
         </div>
         {beforeClick && (
           <div className="food-icons" style={{ top: "33%" }} ref={iconOneRef}>
-            <img src="images/icon6.png" height="30px" />
+            <img src={require("../styles/images/icon6.png")} height="30px" />
             <button onClick={combine}>點點看看</button>
           </div>
         )}
         {afterClick && (
           <div className="food-icons-clicked" style={{ top: "33%" }}>
-            <img src="images/icon7.png" height="30px" />
+            <img src={require("../styles/images/icon7.png")} height="30px" />
           </div>
         )}
         <div className="letter-2" ref={letterTwoRef}>
-          <img src="images/bg5-2.jpg" />
+          <img src={require("../styles/images/bg5-2.jpg")} />
           <div className="text2">
             <p>
               我們不僅在店面裝潢上下功夫，更注重餐點的口味開發，讓消費者能夠有更多元的中西口味選擇。
@@ -71,17 +71,17 @@ const About = () => {
             style={{ top: "calc(64% - 14px)" }}
             ref={iconTwoRef}
           >
-            <img src="images/icon6.png" height="30px" />
+            <img src={require("../styles/images/icon6.png")} height="30px" />
             <button onClick={combine}>點點看看</button>
           </div>
         )}
         {afterClick && (
           <div className="food-icons-clicked" style={{ top: "calc(60%)" }}>
-            <img src="images/icon7.png" height="30px" />
+            <img src={require("../styles/images/icon7.png")} height="30px" />
           </div>
         )}
         <div className="letter-3" ref={letterThreeRef}>
-          <img src="images/bg5-3.jpg" />
+          <img src={require("../styles/images/bg5-3.jpg")} />
           <div className="text3">
             <h3>小知識分享:</h3>
             <p>Breakfast這個字要到15世紀的時候才成為早餐這個字的英文。</p>

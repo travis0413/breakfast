@@ -36,7 +36,7 @@ const Footer = () => {
         <div
           className={`${col}-4 d-flex align-items-center justify-content-center`}
         >
-          <img src="images/mark3.jpeg" height="210px" />
+          <img src={require("../styles/images/mark3.jpeg")} height="210px" />
         </div>
         <div
           className={`${col}-4 d-flex flex-column align-items-center justify-content-center`}
@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="text-center">
             <a href="https://www.facebook.com/">
               <img
-                src="/images/fb.png"
+                src={require("../styles/images/fb.png")}
                 style={{
                   height: "40px",
                 }}
@@ -52,7 +52,7 @@ const Footer = () => {
             </a>
             <a href="https://www.instagram.com/">
               <img
-                src="/images/ig.png"
+                src={require("../styles/images/ig.png")}
                 style={{
                   height: "63px",
                 }}
@@ -60,7 +60,7 @@ const Footer = () => {
             </a>
             <a href="https://twitter.com/">
               <img
-                src="/images/tw.png"
+                src={require("../styles/images/tw.png")}
                 style={{
                   height: "42px",
                 }}

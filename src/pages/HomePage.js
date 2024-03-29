@@ -84,7 +84,7 @@ const HomePage = () => {
             <h1 className="fs-1 appeared">從早餐開始</h1>
             <p className="slogan">to start your day</p>
             <img
-              src="images/removebg2.png"
+              src={require("../styles/images/removebg2.png")}
               className="running position-relative"
               style={{ width: "10vw", right: "0%" }}
             />

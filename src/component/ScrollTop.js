@@ -26,7 +26,7 @@ const ScrollTop = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="images/icon12.png" width="50px" />
+          <img src={require("../styles/images/icon12.png")} width="50px" />
         </button>
       )}
       <br />
@@ -36,7 +36,7 @@ const ScrollTop = () => {
           navigate("/");
         }}
       >
-        <img src="images/icon11.png" width="50px" />
+        <img src={require("../styles/images/icon11.png")} width="50px" />
       </button>
     </div>
   );

@@ -10,7 +10,11 @@ const StoreCard = ({ store }) => {
       <p>
         <a href="#">
           {store.position}
-          <img src="images/icon9.png" alt="map" className="mapIcon" />
+          <img
+            src={require("../styles/images/icon9.png")}
+            alt="map"
+            className="mapIcon"
+          />
         </a>
       </p>
       <p>{store.phone}</p>

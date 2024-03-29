@@ -25,7 +25,7 @@ const MenuPage3 = ({ page3Ref, displayBtn3Ref, menuList }) => {
           </h4>
           {food1 && menuList == "recommend" && (
             <a href={`images/${menuList}9.jpg`} target="_blank">
-              <img src={`images/${menuList}9.jpg`} />
+              <img src={require(`../styles/images/${menuList}9.jpg`)} />
             </a>
           )}
         </div>
@@ -39,7 +39,7 @@ const MenuPage3 = ({ page3Ref, displayBtn3Ref, menuList }) => {
           </h4>
           {food2 && menuList == "recommend" && (
             <a href={`images/${menuList}10.jpg`} target="_blank">
-              <img src={`images/${menuList}10.jpg`} />
+              <img src={require(`../styles/images/${menuList}10.jpg`)} />
             </a>
           )}
         </div>
@@ -58,7 +58,7 @@ const MenuPage3 = ({ page3Ref, displayBtn3Ref, menuList }) => {
           </h4>
           {food3 && menuList == "recommend" && (
             <a href={`images/${menuList}11.jpg`} target="_blank">
-              <img src={`images/${menuList}11.jpg`} />
+              <img src={require(`../styles/images/${menuList}11.jpg`)} />
             </a>
           )}
         </div>
@@ -75,7 +75,7 @@ const MenuPage3 = ({ page3Ref, displayBtn3Ref, menuList }) => {
           </h4>
           {food4 && menuList == "recommend" && (
             <a href={`images/${menuList}12.jpg`} target="_blank">
-              <img src={`images/${menuList}12.jpg`} />
+              <img src={require(`../styles/images/${menuList}12.jpg`)} />
             </a>
           )}
         </div>

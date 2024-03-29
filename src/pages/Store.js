@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 import Album from "../component/Album";
 import StoreCard from "../component/StoreCard";
+import store1 from "../styles/images/store1.jpg";
+import store2 from "../styles/images/store2.jpg";
+import store3 from "../styles/images/store3.jpg";
+import store4 from "../styles/images/store4.jpg";
+import store5 from "../styles/images/store5.jpg";
+import store6 from "../styles/images/store6.jpg";
+import store7 from "../styles/images/store7.jpg";
+import store8 from "../styles/images/store8.jpg";
+import store9 from "../styles/images/store9.jpg";
 
 const Store = () => {
   // class StoreInfo {
@@ -61,63 +70,63 @@ const Store = () => {
       name: "高雄三誠店",
       position: "高雄市鳳山區三誠路69號",
       phone: "07-768-7788",
-      src: "images/store1.jpg",
+      src: store1,
     },
     {
       location: "高雄",
       name: "高雄重愛店",
       position: "高雄市左營區重愛路370號",
       phone: "07-350-8588",
-      src: "images/store2.jpg",
+      src: store2,
     },
     {
       location: "台南",
       name: "台南崇明店",
       position: "台南市東區崇明路589號",
       phone: "06-288-0118",
-      src: "images/store3.jpg",
+      src: store3,
     },
     {
       location: "台中",
       name: "台中福科店",
       position: "台中市西屯區福科路940號",
       phone: "04-2463-6988",
-      src: "images/store4.jpg",
+      src: store4,
     },
     {
       location: "台中",
       name: "台中漢川店",
       position: "台中市西屯區漢口路一段31號",
       phone: "04-2315-2289",
-      src: "images/store6.jpg",
+      src: store5,
     },
     {
       location: "桃園",
       name: "桃園青峰店",
       position: "桃園市大園區青峰路二段166號",
       phone: "03-287-8899",
-      src: "images/store5.jpg",
+      src: store6,
     },
     {
       location: "桃園",
       name: "桃園大華店",
       position: "桃園市桃園區民生路495-1號",
       phone: "03-336-9298",
-      src: "images/store8.jpg",
+      src: store8,
     },
     {
       location: "桃園",
       name: "桃園大業店",
       position: "桃園市桃園區大業路二段173號",
       phone: "03-325-8398",
-      src: "images/store9.jpg",
+      src: store9,
     },
     {
       location: "新竹",
       name: "新竹忠孝店",
       position: "新竹市東區忠孝路27巷2號",
       phone: "03-571-8288",
-      src: "images/store7.jpg",
+      src: store7,
     },
   ];
 

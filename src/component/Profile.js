@@ -7,7 +7,7 @@ const Profile = () => {
       style={{ color: "rgb(177, 103, 103)" }}
     >
       <img
-        src="images/icon4.png"
+        src={require("../styles/images/icon4.png")}
         className="position-relative"
         style={{
           height: "15vw",
@@ -27,7 +27,7 @@ const Profile = () => {
         秉持著服務的熱誠,讓客人享用精緻的餐點,以及舒適的用餐環境。
       </p>
       <img
-        src="images/icon3.png"
+        src={require("../styles/images/icon3.png")}
         className="position-relative effect5"
         style={{
           width: "15vw",

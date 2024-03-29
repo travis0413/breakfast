@@ -91,7 +91,11 @@ const Meals = () => {
       <div className="contain" ref={containRef} onClick={openHandler}>
         <div className="card">
           <div className="imgBox" ref={imgBoxRef}>
-            <img src="images/bf.jpg" width="100%" height="100%" />
+            <img
+              src={require("../styles/images/bf.jpg")}
+              width="100%"
+              height="100%"
+            />
             <button
               className="btn btn-text"
               onClick={openHandler}
@@ -105,14 +109,14 @@ const Meals = () => {
             onClick={turnNextPageHandler}
             ref={btnRightArrowRef}
           >
-            <img src="images/arrow3.png" height="30px" />
+            <img src={require("../styles/images/arrow3.png")} height="30px" />
           </button>
           <button
             className="btn btn-left-arrow"
             onClick={turnPrePageHandler}
             ref={btnLeftArrowRef}
           >
-            <img src="images/arrow4.png" height="30px" />
+            <img src={require("../styles/images/arrow4.png")} height="30px" />
           </button>
           {(menuList == "newFood" && (
             <MenuPage1
@@ -177,10 +181,10 @@ const Meals = () => {
       </h1>
       <div className="real-menu">
         <a href="images/menu1.jpeg" target="_blank">
-          <img src="images/menu1.jpeg" />
+          <img src={require("../styles/images/menu1.jpeg")} />
         </a>
         <a href="images/menu2.jpeg" target="_blank">
-          <img src="images/menu2.jpeg" />
+          <img src={require("../styles/images/menu2.jpeg")} />
         </a>
       </div>
     </div>

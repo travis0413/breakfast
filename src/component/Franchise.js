@@ -48,7 +48,7 @@ const Franchise = ({
           }}
         >
           <p style={{ margin: "0", display: "flex", alignItems: "center" }}>
-            <img src="images/icon8.png" height="20px" />
+            <img src={require("../styles/images/icon8.png")} height="20px" />
             您必須填寫出生日期
           </p>
           <button
@@ -85,7 +85,7 @@ const Franchise = ({
           }}
         >
           <p style={{ margin: "0", display: "flex", alignItems: "center" }}>
-            <img src="images/icon8.png" height="20px" />
+            <img src={require("../styles/images/icon8.png")} height="20px" />
             您必須填寫您的職業
           </p>
           <button
@@ -124,7 +124,7 @@ const Franchise = ({
           }}
         >
           <p style={{ margin: "0", display: "flex", alignItems: "center" }}>
-            <img src="images/icon8.png" height="20px" />
+            <img src={require("../styles/images/icon8.png")} height="20px" />
             您必須填寫地址
           </p>
           <button
@@ -263,7 +263,7 @@ const Franchise = ({
           }}
         >
           <p style={{ margin: "0", display: "flex", alignItems: "center" }}>
-            <img src="images/icon8.png" height="20px" />
+            <img src={require("../styles/images/icon8.png")} height="20px" />
             您必須至少勾選其中一項
           </p>
           <button
@@ -308,7 +308,7 @@ const Franchise = ({
           }}
         >
           <p style={{ margin: "0", display: "flex", alignItems: "center" }}>
-            <img src="images/icon8.png" height="20px" />
+            <img src={require("../styles/images/icon8.png")} height="20px" />
             您必須選擇其中一項
           </p>
           <button
@@ -353,7 +353,7 @@ const Franchise = ({
           }}
         >
           <p style={{ margin: "0", display: "flex", alignItems: "center" }}>
-            <img src="images/icon8.png" height="20px" />
+            <img src={require("../styles/images/icon8.png")} height="20px" />
             您必須選擇其中一項
           </p>
           <button
@@ -396,7 +396,7 @@ const Franchise = ({
           }}
         >
           <p style={{ margin: "0", display: "flex", alignItems: "center" }}>
-            <img src="images/icon8.png" height="20px" />
+            <img src={require("../styles/images/icon8.png")} height="20px" />
             您必須選擇其中一項
           </p>
           <button

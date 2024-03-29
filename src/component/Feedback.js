@@ -38,7 +38,7 @@ const Feedback = ({ questionWarning, setQuestionWarning }) => {
           }}
         >
           <p style={{ margin: "0", display: "flex", alignItems: "center" }}>
-            <img src="images/icon8.png" height="20px" />
+            <img src={require("../styles/images/icon8.png")} height="20px" />
             您必須選擇其中一項
           </p>
           <button
