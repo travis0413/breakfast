@@ -1,6 +1,6 @@
 {
-  "name": "breakfast-project",
-  "homepage": "https://travis.github.io/breakfast-project",
+  "name": "breakfast",
+  "homepage": "https://travis.github.io/breakfast",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
