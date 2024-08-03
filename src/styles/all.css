@@ -322,7 +322,7 @@
     height: 8px;
   }
 }
-.contact {
+/* .contact {
   height: 100%;
   font-family: "Noto Sans TC";
   display: flex;
@@ -477,7 +477,7 @@
   .contact form select {
     font-size: 12px;
   }
-}
+} */
 @keyframes collapse {
   0% {
     top: -20px;
@@ -497,26 +497,25 @@ div img.discount {
 div div.container {
   margin-top: 5rem;
   margin-bottom: 5rem;
-  font-family: "Ma Shan Zheng", cursive;
 }
 div div.container p {
   text-align: center;
   font-size: 1.2rem;
 }
 div div.paragraph3 {
-  font-family: "Ma Shan Zheng", cursive;
   margin-top: 5rem;
 }
 div div.paragraph3 div.picture h1 {
   color: lightseagreen;
 }
 div div.paragraph3 div.picture p {
+  font-family: "Ma Shan Zheng", cursive;
   font-size: 1.2rem;
   margin: 2rem;
   color: limegreen;
 }
 div div.paragraph3 div.newsDiv img.arrow {
-  opacity: 0.2;
+  opacity: 0.5;
 }
 div div.paragraph3 div.newsDiv img.arrow:hover {
   opacity: 1;
@@ -1060,8 +1059,7 @@ ul.navbar-nav li.topLink:hover {
 button.navbar-toggler {
   background-color: rgba(222, 184, 135, 0.3);
 }
-button.navbar-toggler i.fa-mug-saucer {
-  padding: 2px;
+button.navbar-toggler i.fa-bars {
   color: brown;
 }
 
@@ -1127,4 +1125,4 @@ nav.secNav li:hover {
 }
 .stores .cards h2 {
   margin: 0;
-}/*# sourceMappingURL=all.css.map */
+} /*# sourceMappingURL=all.css.map */

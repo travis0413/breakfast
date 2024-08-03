@@ -24,60 +24,63 @@ const NewsCard = ({ reverse }) => {
         LEO News
       </h3>
       <div className="card" style={{ width: "18rem" }}>
-        <img
-          src={card}
-          class="card-img-top"
-          alt="..."
-          style={{ height: "150px" }}
-        />
-        <button
-          onClick={() => {
-            if (card == card1) {
-              setCard(card2);
-            } else if (card == card2) {
-              setCard(card3);
-            } else if (card == card3) {
-              setCard(card1);
-            }
-          }}
-          className="primary position-absolute"
-          style={{
-            backgroundColor: "rgba(0,0,0,0)",
-            border: "none",
-            top: "50%",
-          }}
-        >
+        <div className="position-relative">
           <img
-            src={require("../styles/images/arrow.png")}
-            height="50px"
-            className="arrow"
+            src={card}
+            class="card-img-top"
+            alt="..."
+            style={{ height: "150px" }}
           />
-        </button>
-        <button
-          onClick={() => {
-            if (card == "images/open.jpg") {
-              setCard("images/discount.jpg");
-            } else if (card == "images/discount.jpg") {
-              setCard("images/discount2.jpg");
-            } else if (card == "images/discount2.jpg") {
-              setCard("images/open.jpg");
-            }
-          }}
-          className="primary position-absolute"
-          style={{
-            backgroundColor: "rgba(0,0,0,0)",
-            border: "none",
-            top: "50%",
-            right: "0",
-          }}
-        >
-          <img
-            src={require("../styles/images/arrow2.png")}
-            height="50px"
-            className="arrow"
-          />
-        </button>
-        {card === "images/open.jpg" && (
+          <button
+            onClick={() => {
+              if (card == card1) {
+                setCard(card2);
+              } else if (card == card2) {
+                setCard(card3);
+              } else if (card == card3) {
+                setCard(card1);
+              }
+            }}
+            className="primary position-absolute"
+            style={{
+              backgroundColor: "rgba(0,0,0,0)",
+              border: "none",
+              left: "0",
+              bottom: "-15%",
+            }}
+          >
+            <img
+              src={require("../styles/images/arrow.png")}
+              height="50px"
+              className="arrow"
+            />
+          </button>
+          <button
+            onClick={() => {
+              if (card == card1) {
+                setCard(card3);
+              } else if (card == card3) {
+                setCard(card2);
+              } else if (card == card2) {
+                setCard(card1);
+              }
+            }}
+            className="primary position-absolute"
+            style={{
+              backgroundColor: "rgba(0,0,0,0)",
+              border: "none",
+              right: "0",
+              bottom: "-15%",
+            }}
+          >
+            <img
+              src={require("../styles/images/arrow2.png")}
+              height="50px"
+              className="arrow"
+            />
+          </button>
+        </div>
+        {card === card1 && (
           <div className="card-body">
             <h5 className="card-title">Mr.里歐歐式早餐-中山北店 即將開幕</h5>
             {collapse && (
@@ -91,18 +94,14 @@ const NewsCard = ({ reverse }) => {
             <button
               className="btn btn-primary"
               onClick={() => {
-                if (!collapse) {
-                  setCollapse(true);
-                } else {
-                  setCollapse(null);
-                }
+                setCollapse(true);
               }}
             >
               了解詳情
             </button>
           </div>
         )}
-        {card === "images/discount.jpg" && (
+        {card === card3 && (
           <div className="card-body">
             <h5 className="card-title">即日起 週週送</h5>
             {collapse && (
@@ -117,18 +116,14 @@ const NewsCard = ({ reverse }) => {
             <button
               className="btn btn-primary"
               onClick={() => {
-                if (!collapse) {
-                  setCollapse(true);
-                } else {
-                  setCollapse(null);
-                }
+                setCollapse(true);
               }}
             >
               了解詳情
             </button>
           </div>
         )}
-        {card === "images/discount2.jpg" && (
+        {card === card2 && (
           <div className="card-body">
             <h5 className="card-title">限時優惠</h5>
             {collapse && (
@@ -145,11 +140,7 @@ const NewsCard = ({ reverse }) => {
             <button
               className="btn btn-primary"
               onClick={() => {
-                if (!collapse) {
-                  setCollapse(true);
-                } else {
-                  setCollapse(null);
-                }
+                setCollapse(true);
               }}
             >
               了解詳情

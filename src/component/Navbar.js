@@ -27,7 +27,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="fa-solid fa-mug-saucer"></i>
+            <i class="fa-solid fa-bars"></i>
           </button>
           <Link to="/">
             <img
@@ -65,7 +65,7 @@ const Navbar = () => {
                   門市據點
                 </Link>
               </li>
-              <li className="nav-item h5 topLink">
+              {/* <li className="nav-item h5 topLink">
                 <Link
                   className="nav-link active text-black fw-bold"
                   aria-current="page"
@@ -73,7 +73,7 @@ const Navbar = () => {
                 >
                   聯絡我們
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -131,7 +131,7 @@ const Navbar = () => {
                     門市據點
                   </Link>
                 </li>
-                <li className="nav-item h5 m-3">
+                {/* <li className="nav-item h5 m-3">
                   <Link
                     className="nav-link active text-black fw-bold border border-3 rounded-3 border-success"
                     aria-current="page"
@@ -139,7 +139,7 @@ const Navbar = () => {
                   >
                     聯絡我們
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

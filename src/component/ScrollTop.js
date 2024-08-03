@@ -3,19 +3,19 @@ import { useNavigate } from "react-router-dom";
 
 const ScrollTop = () => {
   const navigate = useNavigate();
-  const [hideIcon, setHideIcon] = useState(true);
+  const [hideScrollIcon, setHideScrollIcon] = useState(true);
 
   window.addEventListener("scroll", () => {
     if (window.scrollY > 100) {
-      setHideIcon(null);
+      setHideScrollIcon(null);
     } else {
-      setHideIcon(true);
+      setHideScrollIcon(true);
     }
   });
 
   return (
     <div style={{ position: "fixed", top: "80%", right: "0" }}>
-      {!hideIcon && (
+      {!hideScrollIcon && (
         <button
           style={{
             backgroundColor: "rgba(0,0,0,0)",
