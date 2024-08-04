@@ -1,0 +1,144 @@
+div {
+  //第一段落幻燈片樣式表
+  img.discount {
+    margin-top: 50px;
+    width: 100vw;
+    height: 40vw;
+    border-radius: 500px 500px 500px 500px;
+  }
+
+  //第二段落
+  div.container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-family: "Ma Shan Zheng", cursive;
+    p {
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  }
+  //第三段落
+  div.paragraph3 {
+    font-family: "Ma Shan Zheng", cursive;
+    margin-top: 5rem;
+
+    div.picture {
+      h1 {
+        color: lightseagreen;
+      }
+      p {
+        font-size: 1.2rem;
+        margin: 2rem;
+        color: limegreen;
+      }
+    }
+
+    div.newsDiv {
+      img.arrow {
+        opacity: 0.2;
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      div.card-body {
+        h5 {
+          font-family: "Noto Sans TC";
+          font-size: 1.5rem;
+        }
+        p {
+          font-family: "Noto Sans TC";
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+//各種浮現動畫
+.effect {
+  animation: appear 2s;
+}
+.effect2 {
+  animation: appear2 2s;
+}
+.effect3 {
+  animation: appear3 2s;
+}
+.effect4 {
+  animation: appear4 2s;
+}
+
+@keyframes appear {
+  0% {
+    left: 50px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes appear2 {
+  0% {
+    font-size: 0;
+  }
+  100% {
+    font-size: 1.2rem;
+  }
+}
+
+@keyframes appear3 {
+  0% {
+    left: -200%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes appear4 {
+  0% {
+    right: 100%;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes infinity {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 5px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes infinity2 {
+  0% {
+    width: 15vw;
+  }
+  50% {
+    width: 16vw;
+  }
+  100% {
+    width: 15vw;
+  }
+}
+
+@keyframes infinity3 {
+  0% {
+    font-variation-settings: "EDPT" 100;
+  }
+  50% {
+    font-variation-settings: "EDPT" 200;
+  }
+  100% {
+    font-variation-settings: "EDPT" 100;
+  }
+}
