@@ -90,7 +90,7 @@ const Navbar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i className="fa-solid fa-mug-saucer"></i>
+              <i className="fa-solid fa-bars"></i>
             </button>
             <Link to="/">
               <img
